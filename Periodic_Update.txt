@@ -1,0 +1,16 @@
+DETAILED REPORT OF THE CRYPTO-CURRENCIES PERIODIC UPDATE:
+ 
+allCoins table extracted from coinmarketcap.com in 2.16 seconds
+ 
+Website and Source Code URL for all Crypto-currencies retrieved in 11.1 minutes
+ 
+-------------------------------------------------------------
+ 
+NO NEW COINS ADDED TODAY TO coinmarketcap.com
+ 
+HTTPError - Data missing for the coin: farstcoin
+ 
+Extracted all Crypto-currencies data from the web for today in 14.86 minutes
+ 
+COMPLETED THE PERIODIC UPDATE IN 26.0 MINUTES
+ 
