@@ -1,0 +1,28 @@
+DETAILED REPORT OF THE CRYPTO-CURRENCIES PERIODIC UPDATE:
+ 
+allCoins table extracted from coinmarketcap.com in 1.77 seconds
+ 
+Website and Source Code URL for all Crypto-currencies retrieved in 9.67 minutes
+ 
+Number of coins newly added to coinmarketcap.com: 2
+ 
+-------------------------------------------------------------
+ 
+        Id                 Coin Symbol  Market_Cap     Price
+1334  1600  vice-industry-token    VIT         NaN  0.020975
+1343  1601              friends    FDZ         NaN  0.019788
+ 
+-------------------------------------------------------------
+ 
+SUCCESS MESSAGE: NEW COINS APPENDED TO THE MYSQL DATABASE
+ 
+HTTPError - Data missing for the coin: friends
+ 
+HTTPError - Data missing for the coin: jingtum-tech
+ 
+HTTPError - Data missing for the coin: farstcoin
+ 
+Extracted all Crypto-currencies data from the web for today in 17.91 minutes
+ 
+COMPLETED THE PERIODIC UPDATE IN 27.61 MINUTES
+ 
