@@ -9,11 +9,12 @@ Client - Morningstar Inc., Chicago, IL
 #### Project Overview:
 
 ##### 1.	Project: Crypto-currencies Data Engineering | Client: Morningstar Inc., - Chicago, IL | Tools used: Python, Jupyter Notebook, Atom, MySQL Workbench, Cron
-###### •	Bulk Data Acquisition: Designed Web Scrapers and an automated data pipeline. Extracted over million rows (2013-18 historical data for 1600+ crypto-currencies) from target website and dumped the extracted data to MySQL database. 
-###### •	Periodic Data Extraction: Built a robust channel for automated-periodic data extraction from the web and to append the extracted data to MySQL database. (Automatically handles duplications, data cleansing, missing values and change of ranks)
+###### •	Bulk Data Acquisition: Designed a Web Scraping Engine to extract over million rows (2013-18 historical data including ticker information for 1600+ crypto-currencies) from the target website and push into MySQL database. 
+###### •	Periodic Data Extraction: Designed a Web Scraping Engine for automated-periodic data extraction from the target website (extract daily-transaction data of 1600+ crypto-currencies). The extracted data is automatically appended to MySQL database. 
 
 ##### 2.	Project: Cryptocurrencies Data Analysis | Client: Morningstar Inc., - Chicago, IL | Tools used: Python, R Shiny, ARIMA, Statistics
 ###### •	Cluster Analysis: Computed average daily volatility rate and segmented 1600+ crypto-currencies using K-means Clustering.
 ###### •	Financial Analysis: Analyzed risk adjusted returns (evaluated Sharpe Ratio, Information Ratio) and performed portfolio comparison.
 ###### •	Value Forecasting: Built SVM and Linear Regression models to forecast short-term price trends of stable crypto-currencies.
-###### •	Business Intelligence: Designed R Shiny Web app to effectively demonstrate the performance of stable crypto-currencies and classification of crypto-currencies.
+
+NOTE: The web scraping engine automatically handles duplications, data cleansing, identifies newly added crypto-currencies and start extracting daily information of newly added crypto-currencies and sends an auto-generated E-mail with a text file comprising of all new crypto-currencies information and time-taken for the update).
