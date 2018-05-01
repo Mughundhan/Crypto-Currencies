@@ -15,6 +15,7 @@ Client - Morningstar Inc., Chicago, IL
 ##### 2.	Project: Cryptocurrencies Data Analysis | Client: Morningstar Inc., - Chicago, IL | Tools used: Python, R Shiny, ARIMA, Statistics
 ###### •	Cluster Analysis: Computed average daily volatility rate and segmented 1600+ crypto-currencies using K-means Clustering.
 ###### •	Exploratory Data Analysis: Captured the price trends of crypto-currencies. Stationarized the series to eliminate trend and seasonality.
-###### •	Value Forecasting: Built SVM and Linear Regression models to forecast short-term price trends of stable crypto-currencies.
+###### •	Value Forecasting: Built Linear Regression and time-series (ARIMA) forecasting models to predict prices of top-15 crypto-currencies.
+
 
 ###### NOTE: The web scraping engine automatically handles duplications, data cleansing, identifies newly added crypto-currencies and start extracting daily information of newly added crypto-currencies and sends an auto-generated E-mail with a text file comprising of all new crypto-currencies information and time-taken for the update).
